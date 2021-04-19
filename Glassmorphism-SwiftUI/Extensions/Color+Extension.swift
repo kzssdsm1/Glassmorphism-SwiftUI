@@ -33,11 +33,9 @@ extension Color {
         )
     }
     
-    static let cornFlowerBlue = Color(hex: "6495ed")
-    static let deepSkyBlue = Color(hex: "00bfff")
-    static let fuchsia = Color(hex: "ff00ff")
-    static let mediumOrchid = Color(hex: "ba55d3")
+    static let softRed = Color(hex: "f64f59")
+    static let softViolet = Color(hex: "c471ed")
+    static let vividCyan = Color(hex: "12c2e9")
     static let whiteSmoke = Color(hex: "f5f5f5")
-    static let vividBlue = Color(hex: "00ffcc")
 }
 
