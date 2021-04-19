@@ -34,7 +34,7 @@ struct ContentView: View {
                     )
                     .overlay(
                         RoundedRectangle(cornerRadius: 25)
-                            .stroke(Color.whiteSmoke.opacity(0.6), lineWidth: 2)
+                            .stroke(Color.whiteSmoke.opacity(0.4), lineWidth: 2)
                     )
             )
         } // VStack
