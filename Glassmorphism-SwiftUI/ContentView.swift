@@ -25,7 +25,7 @@ struct ContentView: View {
                 VisualEffectView(effect: UIBlurEffect(style: .light))
                     .frame(width: 320, height: 220)
                     .cornerRadius(25)
-                    .shadow(color: Color.gray.opacity(0.2), radius: 3, x: 12, y: 12)
+                    .shadow(color: Color.black.opacity(0.14), radius: 4, x: 12, y: 12)
                     .overlay(
                         RoundedRectangle(cornerRadius: 25)
                             .stroke(Color.whiteSmoke.opacity(0.8), lineWidth: 13)
@@ -41,7 +41,6 @@ struct ContentView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(
             LinearGradient(gradient: backgroundGradient, startPoint: .topLeading, endPoint: .bottomTrailing)
-                .opacity(0.8)
                 .blur(radius: 4.0)
                 .edgesIgnoringSafeArea(.all)
         )
